@@ -1,0 +1,37 @@
+
+
+.section1{
+    background-image: url('../assets/imgs/bg-sect1.jpg');
+    // неподключается картинка
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0px auto;
+}
+
+.header{
+    display: flex;
+}
+
+.header-nav{
+    display: flex;
+}
+
+.header-list{
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-element{
+        padding: 0 10px;
+    }
+}
+
+
+.section1-inf{
+    max-width: 800px;
+}
