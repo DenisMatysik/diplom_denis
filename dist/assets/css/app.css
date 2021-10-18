@@ -129,6 +129,13 @@ a {
   align-items: center;
   flex-direction: column; }
 
+.firs-pict {
+  transform: translate(-117px, -133px);
+  z-index: 2; }
+
+.sec-pict {
+  transform: translate(180px, -850px); }
+
 .section2-inf {
   margin: 128px 0px; }
 

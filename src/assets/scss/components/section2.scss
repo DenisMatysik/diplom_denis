@@ -6,8 +6,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    // пока расположил так для вида
 }
-// как картинки так расположить????
+// как картинки так расположить, область остаётся пустой????
+
+.firs-pict{
+    transform: translate(-117px, -133px);
+    z-index: 2;
+}
+.sec-pict{
+    
+    transform: translate(180px, -850px);
+}
+
 
 .section2-inf{
     margin: 128px 0px;
