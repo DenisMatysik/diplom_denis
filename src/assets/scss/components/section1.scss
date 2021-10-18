@@ -15,6 +15,7 @@
 .header{
     display: flex;
     height: 80px;
+    margin-bottom: 72px;
 }
 
 .header-nav{
@@ -26,7 +27,6 @@
 }
 
 .logo-img{
-
 }
 
 .header-list{
@@ -34,30 +34,31 @@
         display: flex;
         justify-content: space-between;
         margin-right: 420px;
-
-       
     }
     .nav-element{
         padding: 30px 16px;
         font-weight: bold;
         font-size: 16px;
         line-height: 100%;
+    }
+    .nav-element:nth-child(4){
+        padding-right: 4px;
+    }
 
+    .nav-element-img{
+        padding: 36px 16px 32px 4px;
     }
 }
 
 .header-reg{
     margin: 20px 0px;
     max-width: 240px;
-
     a{
         padding: 10px 16px 14px 16px;
         font-weight: bold;
         font-size: 16px;
         line-height: 100%;
-
     }
-
     .but-sect1{
         padding: 10px 5px 10px 19px;
         color: white;
@@ -67,13 +68,46 @@
         font-size: 16px;
         line-height: 125%;
     }
-
-
 }
-
 
 .section1-inf{
     max-width: 800px;
     display: flex;
     flex-direction: column;
+}
+
+.section1-title{
+    font-size: 76px;
+    line-height: 100%;
+    padding: 38px 0px 0px 32px;
+    margin-bottom: 43px;
+}
+
+.section1-text{
+    font-size: 24px;
+    line-height: 137%;
+    padding: 0px 58px 0px 32px;
+    margin-bottom: 39px;
+}
+.section1-buttons{
+    padding: 0px 370px 0px 32px;
+    .but1{
+        padding: 12px 8px 12px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 150%;
+        background-color: white;
+        border-radius: 10px;
+        border: none;
+        font-family: sans-serif;
+        margin-right: 24px;
+    }
+    .but2{
+        padding: 12px 1px 12px 33px;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 150%;
+        background: none;
+        border: none;
+    }
 }
