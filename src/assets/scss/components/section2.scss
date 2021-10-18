@@ -5,8 +5,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 // как картинки так расположить????
+
+.section2-inf{
+    margin: 128px 0px;
+}
 
 .section2-title{
     font-weight: bold;
@@ -14,4 +19,16 @@
     line-height: 114%;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.section2-row{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .row-logo{
+        padding: 0px 48px;
+    }
 }
