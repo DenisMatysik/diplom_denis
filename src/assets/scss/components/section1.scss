@@ -1,37 +1,75 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
 
+a{
+    text-decoration: none;
+}
 
 .section1{
-    background-image: url('../assets/imgs/bg-sect1.jpg');
-    // неподключается картинка
+    background-image: url(../imgs/bg-sect1.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    height: 800px;
+    // высоту убрать после
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1230px;
     padding: 0 15px;
     margin: 0px auto;
 }
 
 .header{
     display: flex;
+    height: 80px;
 }
 
 .header-nav{
     display: flex;
 }
 
+.header-logo{
+    margin: 24px 0px;
+}
+
+.logo-img{
+
+}
+
 .header-list{
     ul{
         display: flex;
         justify-content: space-between;
+       
     }
     .nav-element{
-        padding: 0 10px;
+        padding: 30px 10px;
     }
+}
+
+.header-reg{
+    margin: 20px 0px;
+    max-width: 240px;
+
+    a{
+        
+    }
+
+    .but-sect1{
+        padding: 10px 5px 10px 19px;
+        color: white;
+        background-color: black;
+        border-radius: 7px;
+    }
+
+
 }
 
 
 .section1-inf{
     max-width: 800px;
+    display: flex;
+    flex-direction: column;
 }
