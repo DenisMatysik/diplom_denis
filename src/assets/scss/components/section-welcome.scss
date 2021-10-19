@@ -1,7 +1,7 @@
 .welcome{
 }
 
-.section2-pict{
+.welcome-picts{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,11 +23,11 @@
 }
 
 
-.section2-inf{
+.welcome__inf{
     margin: 128px 0px;
 }
 
-.section2-title{
+.welcome__title{
     font-weight: bold;
     font-size: 14px;
     line-height: 114%;
@@ -36,7 +36,7 @@
     margin-bottom: 25px;
 }
 
-.section2-row{
+.welcome__row{
     ul{
         display: flex;
         justify-content: center;

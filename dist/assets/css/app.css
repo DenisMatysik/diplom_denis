@@ -139,7 +139,7 @@ a {
     background: black;
     color: white; }
 
-.section2-pict {
+.welcome-picts {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,10 +158,10 @@ a {
   left: 0;
   right: 0; }
 
-.section2-inf {
+.welcome__inf {
   margin: 128px 0px; }
 
-.section2-title {
+.welcome__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 114%;
@@ -169,11 +169,11 @@ a {
   text-transform: uppercase;
   margin-bottom: 25px; }
 
-.section2-row ul {
+.welcome__row ul {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 76px; }
 
-.section2-row .row-logo {
+.welcome__row .row-logo {
   padding: 0px 48px; }
