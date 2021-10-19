@@ -1,7 +1,7 @@
 .welcome{
 }
 
-.welcome-picts{
+.welcome-screens{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,13 +10,13 @@
     
 }
 /*как картинки правильно расположить, область остаётся пустой????*/
-.firs-pict{
+.frst-screen{
     position: relative;
     transform: translate(-117px, -133px);
     z-index: 2;
 }
-.sec-pict{
-    position: absolute;
+.scnd-screen{
+    //position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -37,13 +37,13 @@
 }
 
 .welcome__row{
-    ul{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 76px;
+        min-height: 76px;
+        list-style: none;
     }
     .row-logo{
         padding: 0px 48px;
+        max-width: 100%;
     }
-}

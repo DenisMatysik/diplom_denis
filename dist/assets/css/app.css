@@ -139,7 +139,7 @@ a {
     background: black;
     color: white; }
 
-.welcome-picts {
+.welcome-screens {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,13 +147,12 @@ a {
   /*пока для общего вида*/ }
 
 /*как картинки правильно расположить, область остаётся пустой????*/
-.firs-pict {
+.frst-screen {
   position: relative;
   transform: translate(-117px, -133px);
   z-index: 2; }
 
-.sec-pict {
-  position: absolute;
+.scnd-screen {
   top: 0;
   left: 0;
   right: 0; }
@@ -169,11 +168,13 @@ a {
   text-transform: uppercase;
   margin-bottom: 25px; }
 
-.welcome__row ul {
+.welcome__row {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 76px; }
+  min-height: 76px;
+  list-style: none; }
 
-.welcome__row .row-logo {
-  padding: 0px 48px; }
+.row-logo {
+  padding: 0px 48px;
+  max-width: 100%; }
