@@ -140,6 +140,7 @@ a {
     color: white; }
 
 .welcome-screens {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,13 +149,12 @@ a {
 
 /*как картинки правильно расположить, область остаётся пустой????*/
 .frst-screen {
-  position: relative;
   transform: translate(-117px, -133px);
   z-index: 2; }
 
 .scnd-screen {
+  position: absolute;
   top: 0;
-  left: 0;
   right: 0; }
 
 .welcome__inf {
