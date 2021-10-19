@@ -48,15 +48,13 @@ a {
   display: flex;
   justify-content: space-between;
   margin-right: 420px; }
-  .header__list .nav-element {
+  .header__list a {
     padding: 30px 16px;
     font-weight: bold;
     font-size: 16px;
     line-height: 100%; }
-  .header__list .nav-element:nth-child(4) {
+  .header__list .with-subnav {
     padding-right: 4px; }
-  .header__list .nav-element-img {
-    padding: 36px 16px 32px 4px; }
 
 .header__reg {
   margin: 20px 0px;
