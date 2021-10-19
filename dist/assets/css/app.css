@@ -148,11 +148,15 @@ a {
 
 /*как картинки правильно расположить, область остаётся пустой????*/
 .firs-pict {
+  position: relative;
   transform: translate(-117px, -133px);
   z-index: 2; }
 
 .sec-pict {
-  transform: translate(180px, -850px); }
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; }
 
 .section2-inf {
   margin: 128px 0px; }
