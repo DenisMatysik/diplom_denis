@@ -21,10 +21,19 @@
     line-height: 100%;
     margin-bottom: 43px;
     span{
-        text-decoration-line: underline;
-        text-decoration-color: #FF7843;
-        
-        // через спан
+        //text-decoration-line: underline;
+        //text-decoration-color: #FF7843;  
+        // посложнее
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background:#FF7843 ;
+        }
     }
 }
 
