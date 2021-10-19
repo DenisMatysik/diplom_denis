@@ -41,8 +41,10 @@ a {
   .header__row {
     display: flex; }
 
-.header__logo {
+.logo {
   margin: 24px 24px 24px 0px; }
+  .logo .logo__img {
+    max-width: 100%; }
 
 .header__list {
   display: flex;
@@ -56,22 +58,20 @@ a {
   .header__list .with-subnav {
     padding-right: 4px; }
 
-.header__reg {
-  margin: 20px 0px;
-  max-width: 240px; }
-  .header__reg a {
-    padding: 10px 16px 14px 16px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 100%; }
-  .header__reg .but-sect1 {
-    padding: 10px 5px 10px 19px;
-    color: white;
-    background-color: black;
-    border-radius: 7px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 125%; }
+.link {
+  padding: 10px 16px 14px 16px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 100%; }
+
+.button {
+  padding: 10px 5px 10px 19px;
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 125%; }
 
 .section-starts {
   background-image: url(../imgs/bg-sect1.jpg);
