@@ -152,17 +152,15 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-
-.frst-screen {
-  max-width: 100%;
-  transform: translate(-117px, -133px);
-  z-index: 2; }
-
-.scnd-screen {
-  max-width: 100%;
-  position: absolute;
-  top: -93px;
-  right: 55px; }
+  .welcome-screens .frst-screen {
+    max-width: 100%;
+    transform: translate(-117px, -133px);
+    z-index: 2; }
+  .welcome-screens .scnd-screen {
+    max-width: 100%;
+    position: absolute;
+    top: -93px;
+    right: 55px; }
 
 .welcome__inf {
   margin-bottom: 128px; }
