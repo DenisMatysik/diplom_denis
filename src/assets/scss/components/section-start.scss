@@ -1,21 +1,22 @@
-.section-starts{
+.start{
     padding-top: 80px;
     background-image: url(../imgs/bg-sect1.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    background-size: cover ;
     min-height: 800px;
     // высоту убрать после
 }
 
 
 
-.section-starts-inf{
+.start__inf{
     max-width: 800px;
     display: flex;
     flex-direction: column;
 }
 
-.section-starts-title{
+.start__title{
     font-size: 76px;
     line-height: 100%;
     padding: 38px 0px 0px 32px;
@@ -23,13 +24,13 @@
     // слово website нужно подчеркнуть
 }
 
-.section-starts-text{
+.start__text{
     font-size: 24px;
     line-height: 137%;
     padding: 0px 58px 0px 32px;
     margin-bottom: 39px;
 }
-.section-starts-buttons{
+.start__buttons{
     padding: 0px 370px 0px 32px;
     .but1{
         padding: 12px 8px 12px 20px;
