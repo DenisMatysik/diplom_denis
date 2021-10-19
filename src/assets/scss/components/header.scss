@@ -1,8 +1,13 @@
 
 .header{
-    display: flex;
     height: 80px;
     margin-bottom: 72px;
+
+    
+    &__row{
+        display: flex;
+    }
+
 }
 
 .header-nav{
