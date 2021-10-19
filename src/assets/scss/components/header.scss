@@ -1,32 +1,23 @@
 
 .header{
-    height: 80px;
     margin-bottom: 72px;
-
-    
     &__row{
         display: flex;
     }
-
 }
 
-.header-nav{
-    display: flex;
-}
-
-.header-logo{
+.header__logo{
     margin: 24px 24px 24px 0px;
 }
 
 .logo-img{
 }
 
-.header-list{
-    ul{
+.header__list{
         display: flex;
         justify-content: space-between;
         margin-right: 420px;
-    }
+
     .nav-element{
         padding: 30px 16px;
         font-weight: bold;
@@ -42,7 +33,7 @@
     }
 }
 
-.header-reg{
+.header__reg{
     margin: 20px 0px;
     max-width: 240px;
     a{
