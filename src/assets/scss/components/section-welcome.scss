@@ -1,0 +1,49 @@
+.welcome{
+}
+
+.section2-pict{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*пока для общего вида*/
+    
+}
+/*как картинки правильно расположить, область остаётся пустой????*/
+.firs-pict{
+    position: relative;
+    transform: translate(-117px, -133px);
+    z-index: 2;
+}
+.sec-pict{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.section2-inf{
+    margin: 128px 0px;
+}
+
+.section2-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.section2-row{
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 76px;
+    }
+    .row-logo{
+        padding: 0px 48px;
+    }
+}
