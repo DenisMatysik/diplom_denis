@@ -23,8 +23,8 @@ html {
   font-style: normal; }
 
 * {
-  padding: 0px 0px;
-  margin: 0px 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box; }
 
 a {
@@ -76,7 +76,7 @@ a {
     font-size: 16px;
     line-height: 125%; }
 
-.section1 {
+.section-starts {
   background-image: url(../imgs/bg-sect1.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -87,26 +87,26 @@ a {
   padding: 0 15px;
   margin: 0px auto; }
 
-.section1-inf {
+.section-starts-inf {
   max-width: 800px;
   display: flex;
   flex-direction: column; }
 
-.section1-title {
+.section-starts-title {
   font-size: 76px;
   line-height: 100%;
   padding: 38px 0px 0px 32px;
   margin-bottom: 43px; }
 
-.section1-text {
+.section-starts-text {
   font-size: 24px;
   line-height: 137%;
   padding: 0px 58px 0px 32px;
   margin-bottom: 39px; }
 
-.section1-buttons {
+.section-starts-buttons {
   padding: 0px 370px 0px 32px; }
-  .section1-buttons .but1 {
+  .section-starts-buttons .but1 {
     padding: 12px 8px 12px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -116,7 +116,7 @@ a {
     border: none;
     font-family: sans-serif;
     margin-right: 24px; }
-  .section1-buttons .but2 {
+  .section-starts-buttons .but2 {
     padding: 12px 1px 12px 33px;
     font-size: 16px;
     font-weight: bold;
