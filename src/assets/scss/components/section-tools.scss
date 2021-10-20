@@ -1,0 +1,51 @@
+.tools__inf {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 25px;
+    grid-template-areas: "pict elem1"
+    " pict1 pict2"
+    " elem2 elem3";
+    .tools__img{
+        grid-area: pict1;
+    }
+    .tools__elem1{
+        grid-area: elem1;
+    }
+    .tools__elem2{
+        grid-area: pict2;
+    }
+    .tools__elem3{
+        grid-area: elem2;
+    }
+    .tools__elem4{
+        grid-area: elem3;
+    }
+
+    height: 860px;
+    .tools__elem1{
+        background: #F9F9F9;
+        
+    }
+    p.tools__title{
+        font-size: 14px;
+        line-height: 114%;
+        text-transform: uppercase;
+        color: #FF7843; 
+    }
+    p.tools__text{
+        font-size: 32px;
+        line-height: 112%;
+        color: #000000;
+    }
+    p.tools__desc{
+        font-size: 17px;
+        line-height: 141%;
+        color: rgba(33, 33, 35, 0.7);
+    }
+    p.tools__par{
+        font-size: 17px;
+        line-height: 141%;
+        color: #000000;
+    }
+}
