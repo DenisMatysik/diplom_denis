@@ -48,16 +48,20 @@
 
 .open__colums{
     display: flex;
-    margin-bottom: 152px;
+    margin: 0 -12px;
 }
-.open__colum1{
-    padding: 163px 45px 161px 32px;
+.open__colum{
+    padding: 0 12px;
     flex: 1 0 50%;
     width: 50%;
+    // как сделать высоту калонок одинаковой?
+}
+
+.colum1{
+    padding: 160px 45px 129px 32px;
+    // просто подогнал чтоб высота колонок была одинаковой
     background-image: url(../imgs/bg-open.jpg);
     background-repeat: no-repeat;
-    margin-right: 24px;
-    
     
 }
 .colum1-text{
@@ -74,7 +78,7 @@
     max-width: 412px;
 }
 
-.open__colum2 {
+.colum2 {
     display: flex;
     flex-direction: column;
     background: #F9F9F9;
