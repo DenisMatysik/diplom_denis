@@ -1,51 +1,62 @@
 .tools__inf {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 25px;
-    grid-template-areas: "pict elem1"
-    " pict1 pict2"
-    " elem2 elem3";
-    .tools__img{
-        grid-area: pict1;
-    }
+    grid-template-rows: 66% 1fr;
+    grid-gap: 24px;
+    grid-template-areas: 
+    "elem1 elem2"
+    "elem1 elem3";
+}
     .tools__elem1{
         grid-area: elem1;
+        background: #F9F9F9;
+        .elem1-inf{
+        padding: 39px 35px 40px 32px;
+        }
     }
     .tools__elem2{
-        grid-area: pict2;
-    }
-    .tools__elem3{
         grid-area: elem2;
-    }
-    .tools__elem4{
-        grid-area: elem3;
+        background: #F9F9F9;
+        .elem2-inf{
+        padding: 39px 35px 48px 32px;
+        }
     }
 
-    height: 860px;
-    .tools__elem1{
-        background: #F9F9F9;
-        
+    .tools__elem3{
+        padding: 41px 60px 40px 32px;
+        background-color: #FF7843;
+        grid-area: elem3;
+        color: white;
+        font-size: 24px;
+        line-height: 133%;
     }
-    p.tools__title{
+
+    .tools__title{
         font-size: 14px;
         line-height: 114%;
         text-transform: uppercase;
         color: #FF7843; 
+        margin-bottom: 15px;
     }
-    p.tools__text{
+    .tools__text{
         font-size: 32px;
         line-height: 112%;
         color: #000000;
+        margin-bottom: 15px;
     }
-    p.tools__desc{
+    .tools__desc{
         font-size: 17px;
         line-height: 141%;
         color: rgba(33, 33, 35, 0.7);
+        margin-bottom: 47px;
     }
-    p.tools__par{
+    .tools__par{
         font-size: 17px;
         line-height: 141%;
         color: #000000;
     }
-}
+    .par--inverse{
+        color:white;
+        margin-top: 23px;
+    }
+
