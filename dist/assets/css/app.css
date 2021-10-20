@@ -184,6 +184,9 @@ a {
   padding: 0px 48px;
   max-width: 100%; }
 
+.tools {
+  margin-bottom: 128px; }
+
 .tools__inf {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
