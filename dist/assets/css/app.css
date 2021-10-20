@@ -287,15 +287,17 @@ a {
 
 .open__colums {
   display: flex;
-  margin-bottom: 152px; }
+  margin: 0 -12px; }
 
-.open__colum1 {
-  padding: 163px 45px 161px 32px;
+.open__colum {
+  padding: 0 12px;
   flex: 1 0 50%;
-  width: 50%;
+  width: 50%; }
+
+.colum1 {
+  padding: 160px 45px 129px 32px;
   background-image: url(../imgs/bg-open.jpg);
-  background-repeat: no-repeat;
-  margin-right: 24px; }
+  background-repeat: no-repeat; }
 
 .colum1-text {
   font-size: 24px;
@@ -309,7 +311,7 @@ a {
   color: #000000;
   max-width: 412px; }
 
-.open__colum2 {
+.colum2 {
   display: flex;
   flex-direction: column;
   background: #F9F9F9; }
