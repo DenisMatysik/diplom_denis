@@ -286,24 +286,28 @@ a {
   color: #000000; }
 
 .open__colums {
-  display: flex; }
+  display: flex;
+  margin-bottom: 152px; }
 
 .open__colum1 {
+  padding: 163px 45px 161px 32px;
+  flex: 1 0 50%;
+  width: 50%;
   background-image: url(../imgs/bg-open.jpg);
-  background-position: 50% 50%;
   background-repeat: no-repeat;
-  margin-right: 24px;
-  padding: 163px 45px 161px 32x; }
+  margin-right: 24px; }
 
 .colum1-text {
   font-size: 24px;
   line-height: 133%;
-  color: black; }
+  color: black;
+  margin-bottom: 55px; }
 
 .colum1-auth {
   font-size: 17px;
   line-height: 141%;
-  color: #000000; }
+  color: #000000;
+  max-width: 412px; }
 
 .open__colum2 {
   display: flex;
@@ -312,6 +316,8 @@ a {
 
 .colum2-inf {
   padding: 39px 34px 40px 32px; }
+  .colum2-inf .open__title {
+    color: #3FB2A5; }
 
 .colum-img {
   align-self: center; }
