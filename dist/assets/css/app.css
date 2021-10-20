@@ -287,7 +287,8 @@ a {
 
 .open__colums {
   display: flex;
-  margin: 0 -12px; }
+  margin: 0 -12px;
+  margin-bottom: 152px; }
 
 .open__colum {
   padding: 0 12px;
