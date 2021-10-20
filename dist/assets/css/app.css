@@ -294,9 +294,10 @@ a {
   width: 50%; }
 
 .colum1 {
-  padding: 160px 45px 129px 32px;
+  padding: 160px 45px 0 32px;
   background-image: url(../imgs/bg-open.jpg);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  height: 100%; }
 
 .colum1-text {
   font-size: 24px;

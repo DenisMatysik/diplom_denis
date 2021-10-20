@@ -3,7 +3,6 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover ;
-   
 }
 .open__inf{
    display: flex;
@@ -11,7 +10,6 @@
 } 
 .open__img{
     transform: translate(-131px, 24px);
-    
     //картинку кое-как расположил
 }
 .open__descr{
@@ -54,15 +52,15 @@
     padding: 0 12px;
     flex: 1 0 50%;
     width: 50%;
-   
     // как сделать высоту калонок одинаковой?
 }
 
 .colum1{
-    padding: 160px 45px 129px 32px;
+    padding: 160px 45px 0 32px;
     // просто подогнал чтоб высота колонок была одинаковой
     background-image: url(../imgs/bg-open.jpg);
     background-repeat: no-repeat;
+    height: 100%;
     
 }
 .colum1-text{
@@ -70,8 +68,8 @@
     line-height: 133%;
     color: black;
     margin-bottom: 55px;
-    
 }
+
 .colum1-auth{
     font-size: 17px;
     line-height: 141%;
