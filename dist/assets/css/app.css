@@ -246,16 +246,16 @@ a {
   background-image: url(../imgs/sec-open.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 480px; }
+  background-size: cover; }
 
 .open__inf {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-area: "pict descr"; }
+  display: flex; }
 
 .open__img {
-  grid-area: pict; }
+  transform: translate(-131px, 24px);
+  max-height: 100%;
+  max-width: 100%; }
 
 .open__descr {
-  grid-area: descr; }
+  margin-left: -100px;
+  padding: 127px 85px 128px 0; }
