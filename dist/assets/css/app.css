@@ -299,5 +299,8 @@ a {
   flex-direction: column;
   background: #F9F9F9; }
 
+.colum2-inf {
+  padding: 39px 34px 40px 32px; }
+
 .colum-img {
   align-self: center; }

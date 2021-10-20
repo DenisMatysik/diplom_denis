@@ -3,7 +3,6 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover ;
-    
     // убрать высоту после
 }
 .open__inf{
@@ -28,6 +27,7 @@
     color: #B2F0EC;
     margin-bottom: 15px;
 }
+
 .open__text{
     font-size: 32px;
     line-height: 112%;
@@ -46,11 +46,9 @@
     color: #000000;
 }
 
-
 .open__colums{
     display: flex;
 }
-
 .open__colum1{
     background-image: url(../imgs/bg-open.jpg);
     background-position: 50% 50%;
@@ -61,6 +59,9 @@
     display: flex;
     flex-direction: column;
     background: #F9F9F9;
+}
+.colum2-inf{
+    padding: 39px 34px 40px 32px;
 }
 .colum-img{
     align-self: center;
