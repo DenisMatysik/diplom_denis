@@ -3,17 +3,26 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover ;
+    .container{
+        max-width: 100%;
+    }
 }
 .open__inf{
    display: flex;
-   margin-bottom: 24px;
+   margin: 0 -9px;
+   margin-bottom: 34px;
 } 
 .open__img{
-    transform: translate(-131px, 24px);
-    //картинку кое-как расположил
+    flex: 0 1 50%;
+    max-width: 50%;
+    padding: 0 9px;
+    transform: translate(0px, 30px);
+    
 }
 .open__descr{
-    margin-left: -100px;
+    flex: 0 1 50%;
+    max-width: 50%;
+    padding: 0 9px;
     padding: 127px 85px 128px 0; 
 }
 
@@ -57,7 +66,6 @@
 
 .colum1{
     padding: 160px 45px 0 32px;
-    
     background-image: url(../imgs/bg-open.jpg);
     background-repeat: no-repeat;
     height: 100%;
