@@ -292,7 +292,18 @@ a {
   background-image: url(../imgs/bg-open.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  margin-right: 24px; }
+  margin-right: 24px;
+  padding: 163px 45px 161px 32x; }
+
+.colum1-text {
+  font-size: 24px;
+  line-height: 133%;
+  color: black; }
+
+.colum1-auth {
+  font-size: 17px;
+  line-height: 141%;
+  color: #000000; }
 
 .open__colum2 {
   display: flex;
