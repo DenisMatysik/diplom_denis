@@ -241,3 +241,21 @@ a {
 .par--inverse {
   color: white;
   margin-top: 23px; }
+
+.open {
+  background-image: url(../imgs/sec-open.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px; }
+
+.open__inf {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-area: "pict descr"; }
+
+.open__img {
+  grid-area: pict; }
+
+.open__descr {
+  grid-area: descr; }

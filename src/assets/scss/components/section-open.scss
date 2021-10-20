@@ -1,0 +1,21 @@
+.open{
+    background-image: url(../imgs/sec-open.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 480px;
+    // убрать высоту после
+}
+.open__inf{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: "pict descr";
+
+
+} 
+.open__img{
+    grid-area: pict;
+}
+.open__descr{
+    grid-area: descr;
+}
