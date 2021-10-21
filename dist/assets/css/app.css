@@ -556,3 +556,60 @@ a {
 
 .desc {
   margin-bottom: 24px; }
+
+.footer_subscribe {
+  display: flex; }
+
+.subscribe__desc {
+  font-size: 16px;
+  line-height: 125%;
+  color: rgba(0, 0, 0, 0.85); }
+
+.subscribe__desscr {
+  color: rgba(0, 0, 0, 0.7); }
+
+.subscribe__text {
+  font-size: 14px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.7); }
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 32px 0; }
+
+.nav-colum {
+  list-style: none;
+  font-size: 16px;
+  line-height: 125%;
+  color: rgba(0, 0, 0, 0.55); }
+  .nav-colum p {
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 12px; }
+  .nav-colum li {
+    margin-bottom: 6px; }
+
+.nav-follow .fol-compan {
+  display: flex; }
+
+.nav-follow img {
+  margin-right: 4px;
+  height: 20px;
+  width: 20px; }
+
+.pointer {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px; }
+
+.nineteen {
+  width: 28px;
+  height: 18px;
+  margin-left: 4px; }
+
+.footer__year {
+  font-size: 13px;
+  line-height: 125%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.55); }
