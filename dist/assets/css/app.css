@@ -354,7 +354,7 @@ a {
   font-size: 14px;
   line-height: 114%;
   text-transform: uppercase;
-  color: #B2F0EC;
+  color: #F5A925;
   margin-bottom: 15px; }
 
 .scale__text {
@@ -420,3 +420,19 @@ a {
   font-size: 17px;
   line-height: 141%;
   color: #000000; }
+
+.colum2-scale-inf {
+  padding: 160px 45px 0 32px;
+  background-image: url(../imgs/scale-bg2.jpg);
+  background-repeat: no-repeat;
+  height: 100%; }
+  .colum2-scale-inf .colum2-scale-text {
+    font-size: 24px;
+    line-height: 133%;
+    color: black;
+    margin-bottom: 55px; }
+  .colum2-scale-inf .colum2-scale-auth {
+    font-size: 17px;
+    line-height: 141%;
+    color: #000000;
+    max-width: 412px; }
