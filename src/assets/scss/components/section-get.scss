@@ -1,0 +1,29 @@
+.get {
+    margin-bottom: 96px;
+    .container{
+        background: url(../imgs/bg-get.jpg);
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover ;
+    }
+}
+.get__inf {
+    padding: 128px 200px;
+}
+.get__logo{
+    margin-bottom: 46px;
+}
+.get__title{
+    margin-bottom: 29px;
+    font-size: 48px;
+    line-height: 104%;
+    color: #000000;
+}
+.get__text{
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+.desc{
+    margin-bottom: 24px;
+}
