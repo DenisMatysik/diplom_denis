@@ -443,3 +443,47 @@ a {
     line-height: 141%;
     color: #000000;
     max-width: 412px; }
+
+.extens {
+  margin-bottom: 128px; }
+  .extens .container {
+    max-width: 100%; }
+
+.extens__row {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 160px 0 48px 0; }
+
+.extens__img {
+  padding: 0 64px; }
+
+.extens__inf {
+  margin-left: 152PX;
+  padding: 40px 0 39px 0; }
+
+.extens__title {
+  font-size: 14px;
+  line-height: 114%;
+  text-transform: uppercase;
+  color: #A060AE;
+  margin-bottom: 15px; }
+
+.extens__text {
+  font-size: 32px;
+  line-height: 112%;
+  color: #000000;
+  margin-bottom: 15px;
+  max-width: 576px; }
+
+.extens__desc {
+  font-size: 17px;
+  line-height: 141%;
+  color: rgba(33, 33, 35, 0.7);
+  margin-bottom: 22px;
+  max-width: 470px; }
+
+.extens__par {
+  font-size: 17px;
+  line-height: 141%;
+  color: #000000; }
