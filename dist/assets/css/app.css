@@ -343,12 +343,16 @@ a {
 
 .scale__inf {
   display: flex;
-  margin: 0 -9px; }
+  margin: 0 -9px;
+  margin-bottom: 24px; }
+  .scale__inf .scale__title {
+    color: #8D5F10; }
 
 .scale__descr {
   flex: 0 1 50%;
   max-width: 50%;
-  padding: 0 9px; }
+  padding: 0 9px;
+  padding: 127px 0 103px 148px; }
 
 .scale__title {
   font-size: 14px;
@@ -368,7 +372,7 @@ a {
   line-height: 141%;
   color: rgba(33, 33, 35, 0.7);
   margin-bottom: 23px;
-  max-width: 470px; }
+  max-width: 520px; }
 
 .scale__par {
   font-size: 17px;
@@ -379,12 +383,13 @@ a {
   flex: 0 1 50%;
   max-width: 50%;
   padding: 0 9px;
-  transform: translate(-15px, 30px); }
+  height: 100%;
+  transform: translate(-15px, 54px); }
 
 .scale__colums {
   display: flex;
   margin: 0 -12px;
-  margin-bottom: 152px; }
+  margin-bottom: 96px; }
 
 .scale__colum {
   padding: 0 12px;
@@ -396,33 +401,35 @@ a {
   flex-direction: column;
   background: #F9F9F9; }
 
-.colum1-sacle-inf .scale__title {
-  font-size: 14px;
-  line-height: 114%;
-  text-transform: uppercase;
-  color: #F5A925;
-  margin-bottom: 15px; }
+.scale__colum1-img {
+  margin-bottom: 39px; }
 
-.colum1-sacle-inf .scale__text {
-  font-size: 32px;
-  line-height: 112%;
-  color: #000000;
-  margin-bottom: 15px; }
-
-.colum1-sacle-inf .scale__desc {
-  font-size: 17px;
-  line-height: 141%;
-  color: rgba(33, 33, 35, 0.7);
-  margin-bottom: 23px;
-  max-width: 470px; }
-
-.colum1-sacle-inf .scale__par {
-  font-size: 17px;
-  line-height: 141%;
-  color: #000000; }
+.colum1-sacle-inf {
+  padding: 0 55px 41px 32px; }
+  .colum1-sacle-inf .scale__title {
+    font-size: 14px;
+    line-height: 114%;
+    text-transform: uppercase;
+    color: #F5A925;
+    margin-bottom: 15px; }
+  .colum1-sacle-inf .scale__text {
+    font-size: 32px;
+    line-height: 112%;
+    color: #000000;
+    margin-bottom: 15px; }
+  .colum1-sacle-inf .scale__desc {
+    font-size: 17px;
+    line-height: 141%;
+    color: rgba(33, 33, 35, 0.7);
+    margin-bottom: 23px;
+    max-width: 470px; }
+  .colum1-sacle-inf .scale__par {
+    font-size: 17px;
+    line-height: 141%;
+    color: #000000; }
 
 .colum2-scale-inf {
-  padding: 160px 45px 0 32px;
+  padding: 151px 55px 151px 32px;
   background-image: url(../imgs/scale-bg2.jpg);
   background-repeat: no-repeat;
   height: 100%; }
