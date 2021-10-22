@@ -6,10 +6,13 @@
                 p.subscribe__desc.subscribe__desscr A monthly digest of the latest Sketch news, articles, and resources.
             .subscribe__area 
                 .subscribe__field
-                    .subscribe__input Email
-                    // тут нужно намутить поинтер ещё 
-                    button.button Subscribe
-                .subscribe__text I agree to receive marketing emails from Sketch.
+                    .subscribe__input
+                        input(type="email" placeholder="Email" required)
+                        button.button Subscribe
+                .subscribe__text
+                    input(type="checkbox").chekbox
+                    // тут нужен checkbox? я его на макете не вижу
+                    p I agree to receive marketing emails from Sketch.
         .footer__nav
             ul.nav-colum.nav-sketch
                 p Sketch

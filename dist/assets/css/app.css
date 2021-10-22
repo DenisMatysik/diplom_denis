@@ -561,6 +561,9 @@ a {
   display: flex;
   padding: 32px 0; }
 
+.subscribe__area {
+  margin-left: auto; }
+
 .subscribe__desc {
   font-size: 16px;
   line-height: 125%;
@@ -569,10 +572,24 @@ a {
 .subscribe__desscr {
   color: rgba(0, 0, 0, 0.7); }
 
+.subscribe__input {
+  margin-bottom: 8px; }
+  .subscribe__input input {
+    height: 50px;
+    width: 554px;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.1);
+    padding: 15px 15px; }
+
 .subscribe__text {
+  display: flex;
+  align-items: center;
   font-size: 14px;
   line-height: 150%;
   color: rgba(0, 0, 0, 0.7); }
+  .subscribe__text .chekbox {
+    margin: 0 5px; }
 
 .footer__nav {
   display: flex;

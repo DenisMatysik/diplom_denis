@@ -1,8 +1,13 @@
-
+.footer{
+}
 
 .footer_subscribe{
     display: flex;
     padding: 32px 0;
+}
+
+.subscribe__area {
+    margin-left: auto;
 }
 
 .subscribe__desc{
@@ -14,11 +19,27 @@
     color: rgba(0, 0, 0, 0.7);
 }
 
+.subscribe__input{
+    margin-bottom: 8px;
+    input{
+        height: 50px;
+        width: 554px;
+        background-color: #F9F9F9;
+        border-radius: 5px;
+        border-color: rgba(0, 0, 0, 0.1);
+        padding: 15px 15px;
+    }
+}
+
 .subscribe__text{
+    display: flex;
+    align-items: center;
     font-size: 14px;
     line-height: 150%;
     color: rgba(0, 0, 0, 0.7);
-    
+    .chekbox{
+    margin: 0 5px;
+    }
 }
 
 .footer__nav{
@@ -70,7 +91,6 @@
     width: 28px;
     height: 18px;
     margin-left: 4px;
-
 }
 
 .footer__year{
