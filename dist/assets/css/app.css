@@ -351,7 +351,6 @@ a {
 .scale__descr {
   flex: 0 1 50%;
   max-width: 50%;
-  padding: 0 9px;
   padding: 127px 0 103px 148px; }
 
 .scale__title {
@@ -383,8 +382,10 @@ a {
   flex: 0 1 50%;
   max-width: 50%;
   padding: 0 9px;
-  height: 100%;
-  transform: translate(-15px, 90px); }
+  position: relative; }
+  .scale__img img {
+    max-width: 100%;
+    transform: translate(-15px, 0px); }
 
 .scale__colums {
   display: flex;
