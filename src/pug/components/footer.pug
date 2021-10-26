@@ -9,10 +9,10 @@
                     .subscribe__input
                         input(type="email" placeholder="Email" required)
                         button.button Subscribe
-                .subscribe__text
-                    input(type="checkbox").chekbox
-                    // тут нужен checkbox? я его на макете не вижу
-                    p I agree to receive marketing emails from Sketch.
+                form(action="#").subscribe__text
+                    label(for="checb") 
+                        input(type="checkbox" id="checb").chekbox
+                        span I agree to receive marketing emails from Sketch.
         .footer__nav
             ul.nav-colum.nav-sketch
                 p Sketch
@@ -39,8 +39,7 @@
                 li 
                     a(href="") Get Help
                 li 
-                    a(href="") Service Status
-                    img(src="./assets/imgs/pointer.png", alt="pointer").pointer
+                    a(href="").pointer Service Status
                 li 
                     a(href="") Manage License
             ul.nav-colum.nav-content
@@ -56,24 +55,19 @@
             ul.nav-colum.nav-follow
                 p Follow Us
                 li.fol-compan
-                    img(src="./assets/imgs/twitter.svg", alt="Twitter")
-                    a(href="") Twitter
+                    a(href="").twitter Twitter
                 li.fol-compan
-                    img(src="./assets/imgs/facab.svg", alt="Facebook")
-                    a(href="") Facebook
+                    a(href="").facebook Facebook
                 li.fol-compan
-                    img(src="./assets/imgs/insta.svg", alt="Instagram")
-                    a(href="") Instagram
+                    a(href="").instagram Instagram
                 li.fol-compan
-                    img(src="./assets/imgs/bribb.svg", alt="Dribbble")
-                    a(href="") Dribbble
+                    a(href="").dribbble Dribbble
             ul.nav-colum.nav-company
                 p Company
                 li 
                     a(href="") About Us
                 li 
-                    a(href="") Careers
-                    img(src="./assets/imgs/nineteen.png", alt="nineteen").nineteen
+                    a(href="").nineteen Careers
                 li 
                     a(href="") Terms & Policies
                 li 

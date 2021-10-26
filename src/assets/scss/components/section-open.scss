@@ -13,13 +13,13 @@
     max-width: 50%;
     padding: 0 9px;
     img{
-        transform: translate(-75px, 26px);
+        transform: translate(-122px, 26px);
     }  
 }
 .open__descr{
     flex: 0 1 50%;
     max-width: 50%;
-    padding: 127px 85px 128px 82px; 
+    padding: 127px 85px 128px 32px; 
     // тут подгонял padding-left чтоб картинка screen3.jpg как в figma была, но текст из .open__descr распологается правее относительно нижнего текста
 }
 

@@ -34,11 +34,13 @@
 .subscribe__text{
     display: flex;
     align-items: center;
+    span{
     font-size: 14px;
     line-height: 150%;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.7);}
     .chekbox{
-    margin: 0 5px;
+        margin: 0 5px;
+        // как поля chekbox сделать невидимыми как в figma?
     }
 }
 
@@ -56,18 +58,16 @@
     list-style: none;
     font-size: 16px;
     line-height: 125%;
-    color: rgba(0, 0, 0, 0.55);
     p{
     color: rgba(0, 0, 0, 0.85);
-    margin-bottom: 12px;
-    }
+    margin-bottom: 12px;}
     li{
-        margin-bottom: 6px;
-    }
+        margin-bottom: 6px;}
     a{
+        color: rgba(0, 0, 0, 0.55);
         &:hover{
             color: white;
-            background: black;
+            background: grey;
         }
     }
 }
@@ -82,12 +82,38 @@
         width: 20px;
     }
 }
-.pointer{
+.pointer::after{
+    content: url(../imgs/pointer.png);
     width: 16px;
     height: 16px;
     margin-left: 4px;
 }
-.nineteen{
+.twitter::before{
+    content: url(../imgs/twitter.svg);
+    margin-right: 4px;
+    height: 20px;
+    width: 20px;
+}
+.facebook::before{
+    content: url(../imgs/facab.svg);
+    margin-right: 4px;
+    height: 20px;
+    width: 20px;
+}
+.instagram::before{
+    content: url(../imgs/insta.svg);
+    margin-right: 4px;
+    height: 20px;
+    width: 20px;
+}
+.dribbble::before{
+    content: url(../imgs/bribb.svg);
+    margin-right: 4px;
+    height: 20px;
+    width: 20px;
+}
+.nineteen::after{
+    content: url(../imgs/nineteen.png);
     width: 28px;
     height: 18px;
     margin-left: 4px;

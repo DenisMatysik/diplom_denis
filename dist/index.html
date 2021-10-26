@@ -221,11 +221,11 @@
                 <button class="button">Subscribe</button>
               </div>
             </div>
-            <div class="subscribe__text">
-              <input class="chekbox" type="checkbox">
-              <!-- тут нужен checkbox? я его на макете не вижу-->
-              <p>I agree to receive marketing emails from Sketch.</p>
-            </div>
+            <form class="subscribe__text" action="#">
+              <label for="checb"> 
+                <input class="chekbox" type="checkbox" id="checb"><span>I agree to receive marketing emails from Sketch.</span>
+              </label>
+            </form>
           </div>
         </div>
         <div class="footer__nav">
@@ -246,7 +246,7 @@
             <p>Support</p>
             <li> <a href="">Documentation</a></li>
             <li> <a href="">Get Help</a></li>
-            <li> <a href="">Service Status</a><img class="pointer" src="./assets/imgs/pointer.png" alt="pointer"></li>
+            <li> <a class="pointer" href="">Service Status</a></li>
             <li> <a href="">Manage License</a></li>
           </ul>
           <ul class="nav-colum nav-content">
@@ -258,15 +258,15 @@
           </ul>
           <ul class="nav-colum nav-follow">
             <p>Follow Us</p>
-            <li class="fol-compan"><img src="./assets/imgs/twitter.svg" alt="Twitter"><a href="">Twitter</a></li>
-            <li class="fol-compan"><img src="./assets/imgs/facab.svg" alt="Facebook"><a href="">Facebook</a></li>
-            <li class="fol-compan"><img src="./assets/imgs/insta.svg" alt="Instagram"><a href="">Instagram</a></li>
-            <li class="fol-compan"><img src="./assets/imgs/bribb.svg" alt="Dribbble"><a href="">Dribbble</a></li>
+            <li class="fol-compan"><a class="twitter" href="">Twitter</a></li>
+            <li class="fol-compan"><a class="facebook" href="">Facebook</a></li>
+            <li class="fol-compan"><a class="instagram" href="">Instagram</a></li>
+            <li class="fol-compan"><a class="dribbble" href="">Dribbble</a></li>
           </ul>
           <ul class="nav-colum nav-company">
             <p>Company</p>
             <li> <a href="">About Us</a></li>
-            <li> <a href="">Careers</a><img class="nineteen" src="./assets/imgs/nineteen.png" alt="nineteen"></li>
+            <li> <a class="nineteen" href="">Careers</a></li>
             <li> <a href="">Terms & Policies</a></li>
             <li> <a href="">Contact Us</a></li>
           </ul>

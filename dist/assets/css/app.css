@@ -257,12 +257,12 @@ a {
   max-width: 50%;
   padding: 0 9px; }
   .open__img img {
-    transform: translate(-75px, 26px); }
+    transform: translate(-122px, 26px); }
 
 .open__descr {
   flex: 0 1 50%;
   max-width: 50%;
-  padding: 127px 85px 128px 82px; }
+  padding: 127px 85px 128px 32px; }
 
 .open__title {
   font-size: 14px;
@@ -583,10 +583,11 @@ a {
 
 .subscribe__text {
   display: flex;
-  align-items: center;
-  font-size: 14px;
-  line-height: 150%;
-  color: rgba(0, 0, 0, 0.7); }
+  align-items: center; }
+  .subscribe__text span {
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.7); }
   .subscribe__text .chekbox {
     margin: 0 5px; }
 
@@ -602,16 +603,17 @@ a {
 .nav-colum {
   list-style: none;
   font-size: 16px;
-  line-height: 125%;
-  color: rgba(0, 0, 0, 0.55); }
+  line-height: 125%; }
   .nav-colum p {
     color: rgba(0, 0, 0, 0.85);
     margin-bottom: 12px; }
   .nav-colum li {
     margin-bottom: 6px; }
-  .nav-colum a:hover {
-    color: white;
-    background: black; }
+  .nav-colum a {
+    color: rgba(0, 0, 0, 0.55); }
+    .nav-colum a:hover {
+      color: white;
+      background: grey; }
 
 .nav-follow .fol-compan {
   display: flex; }
@@ -621,12 +623,38 @@ a {
   height: 20px;
   width: 20px; }
 
-.pointer {
+.pointer::after {
+  content: url(../imgs/pointer.png);
   width: 16px;
   height: 16px;
   margin-left: 4px; }
 
-.nineteen {
+.twitter::before {
+  content: url(../imgs/twitter.svg);
+  margin-right: 4px;
+  height: 20px;
+  width: 20px; }
+
+.facebook::before {
+  content: url(../imgs/facab.svg);
+  margin-right: 4px;
+  height: 20px;
+  width: 20px; }
+
+.instagram::before {
+  content: url(../imgs/insta.svg);
+  margin-right: 4px;
+  height: 20px;
+  width: 20px; }
+
+.dribbble::before {
+  content: url(../imgs/bribb.svg);
+  margin-right: 4px;
+  height: 20px;
+  width: 20px; }
+
+.nineteen::after {
+  content: url(../imgs/nineteen.png);
   width: 28px;
   height: 18px;
   margin-left: 4px; }
