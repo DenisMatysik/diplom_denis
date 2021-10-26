@@ -1,20 +1,25 @@
 .extens {
     margin-bottom: 128px;
-    .container {
-        max-width: 100%;
-    }
+  
 }
 .extens__row{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     list-style: none;
     margin: 160px 0 48px 0;
 }
-.extens__img{
+.row_colum{
+    flex: 0 0 16.66%;
+    // секции сжимаются - как убрать
+    max-width: 16.66%;
     padding: 0 64px;
 }
+
+.extens__img{
+    max-width: 100%;
+}
 .extens__inf{
-    margin-left: 152PX;
+    margin-left: 32PX;
     padding: 40px 0 39px 0;
     
 }
