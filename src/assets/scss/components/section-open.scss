@@ -2,29 +2,25 @@
     background-image: url(../imgs/sec-open.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: cover ;
-    
+    background-size: cover ;  
 }
 .open__inf{
    display: flex;
-   margin: 0 -9px;
-   margin-bottom: 34px;
+   margin: 0 -9px 34px -9px;
 } 
 .open__img{
     flex: 0 1 50%;
     max-width: 50%;
     padding: 0 9px;
-    
     img{
-        transform: translate(-155px, 26px);
-    }
-    
+        transform: translate(-75px, 26px);
+    }  
 }
 .open__descr{
     flex: 0 1 50%;
     max-width: 50%;
-    padding: 0 9px;
-    padding: 127px 85px 128px 0; 
+    padding: 127px 85px 128px 82px; 
+    // тут подгонял padding-left чтоб картинка screen3.jpg как в figma была, но текст из .open__descr распологается правее относительно нижнего текста
 }
 
 .open__title{
