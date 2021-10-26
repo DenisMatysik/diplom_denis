@@ -3,14 +3,12 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover ;
-    .container{
-        max-width: 100%;
-    }
 }
 .scale__inf{
     display: flex;
     margin: 0 -9px;
     margin-bottom: 24px;
+    align-items: center;
     .scale__title{
         color: #8D5F10;
     }
@@ -18,7 +16,7 @@
  .scale__descr{
     flex: 0 1 50%;
     max-width: 50%;
-    padding: 127px 0 103px 148px; // падинги подогнал, сложности с расположением картинки 
+    padding: 127px 28px 128px 28px; // падинги подогнал, сложности с расположением картинки 
 }
 
 .scale__title{
@@ -51,10 +49,11 @@
     flex: 0 1 50%;
     max-width: 50%;
     padding: 0 9px;
-    position: relative;
+    height: 100%;
     img{
+       
         max-width: 100%;
-        transform: translate(-15px, 0px);// подправить
+        transform: translate(-40px, 55px);// подправить
     }
  }
 

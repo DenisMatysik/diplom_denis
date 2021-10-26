@@ -19,7 +19,9 @@ html {
   font-size: 17px;
   line-height: 1.4;
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+  max-width: 1440px;
+  margin: auto auto; }
 
 * {
   padding: 0;
@@ -338,20 +340,19 @@ a {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover; }
-  .scale .container {
-    max-width: 100%; }
 
 .scale__inf {
   display: flex;
   margin: 0 -9px;
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+  align-items: center; }
   .scale__inf .scale__title {
     color: #8D5F10; }
 
 .scale__descr {
   flex: 0 1 50%;
   max-width: 50%;
-  padding: 127px 0 103px 148px; }
+  padding: 127px 28px 128px 28px; }
 
 .scale__title {
   font-size: 14px;
@@ -382,10 +383,10 @@ a {
   flex: 0 1 50%;
   max-width: 50%;
   padding: 0 9px;
-  position: relative; }
+  height: 100%; }
   .scale__img img {
     max-width: 100%;
-    transform: translate(-15px, 0px); }
+    transform: translate(-40px, 55px); }
 
 .scale__colums {
   display: flex;
