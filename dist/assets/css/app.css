@@ -56,7 +56,7 @@ a {
   from {
     transform: rotate(0deg); }
   50% {
-    transform: rotate(180deg) scale(1.25); }
+    transform: rotate(180deg) scale(1.45); }
   to {
     transform: rotate(360deg); } }
 
