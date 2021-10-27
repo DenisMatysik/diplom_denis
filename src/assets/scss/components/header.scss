@@ -15,8 +15,18 @@
     margin-right: 24px;
     .logo__img{
         max-width: 100%;
+        // анимация логотипа
+        &:hover{
+            animation: rotate 1.5s linear infinite;   
+        }
     }
 }
+
+@keyframes rotate {
+    from {transform: rotate(0deg)}
+    50% { transform: rotate(180deg) scale(1.25)}
+    to {transform: rotate(360deg)}
+  }
 
 .header__list{
         list-style: none;
