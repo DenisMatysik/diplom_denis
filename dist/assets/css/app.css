@@ -119,7 +119,8 @@ a {
   background-image: url(../imgs/bg-sect1.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  min-height: 880px; }
 
 .start__inf {
   margin-top: 72px;
@@ -162,14 +163,16 @@ a {
   align-items: center;
   flex-direction: column; }
   .welcome-screens .frst-screen {
-    max-width: 100%;
     transform: translate(-117px, -133px);
     z-index: 2; }
+    .welcome-screens .frst-screen img {
+      max-width: 100%; }
   .welcome-screens .scnd-screen {
-    max-width: 100%;
     position: absolute;
     top: -93px;
     right: 55px; }
+    .welcome-screens .scnd-screen img {
+      max-width: 100%; }
 
 .welcome__inf {
   margin-bottom: 128px; }
@@ -187,10 +190,17 @@ a {
   justify-content: center;
   align-items: center;
   min-height: 76px;
-  list-style: none; }
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0 70px; }
+  .welcome__row .welcome-colum {
+    display: flex;
+    flex: 0 1 20%;
+    max-width: 20%;
+    padding: 0px 48px;
+    justify-content: space-around; }
 
 .row-logo {
-  padding: 0px 48px;
   max-width: 100%; }
 
 .tools {

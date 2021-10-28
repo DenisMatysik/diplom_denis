@@ -9,16 +9,20 @@
     flex-direction: column;
     
 .frst-screen{
-    max-width: 100%;
     transform: translate(-117px, -133px);
     z-index: 2;
+    img{
+        max-width: 100%;
+    }
 }
 .scnd-screen{
-    max-width: 100%;
     position: absolute;
     top: -93px;
     right: 55px;
     // когда ращрешение > 1440px либо <1024px картинки едут друг от друга
+    img{
+        max-width: 100%;
+    }
 }
 }
 
@@ -41,8 +45,16 @@
         align-items: center;
         min-height: 76px;
         list-style: none;
+        flex-wrap: wrap;
+        padding: 0 70px;
+        .welcome-colum{
+            display: flex;
+            flex: 0 1 20%;
+            max-width: 20%;
+            padding: 0px 48px;
+            justify-content: space-around;
+        }
     }
     .row-logo{
-        padding: 0px 48px;
         max-width: 100%;
     }
