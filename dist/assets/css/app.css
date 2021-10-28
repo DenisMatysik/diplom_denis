@@ -119,8 +119,7 @@ a {
   background-image: url(../imgs/bg-sect1.jpg);
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 880px; }
+  background-size: cover; }
 
 .start__inf {
   margin-top: 72px;
@@ -516,7 +515,8 @@ a {
   padding: 0 12px; }
 
 .news__img {
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+  max-width: 100%; }
 
 .news__inf {
   font-size: 20px;
@@ -550,7 +550,8 @@ a {
   padding: 128px 200px; }
 
 .get__logo {
-  margin-bottom: 46px; }
+  margin-bottom: 46px;
+  max-width: 100%; }
 
 .get__title {
   margin-bottom: 29px;
