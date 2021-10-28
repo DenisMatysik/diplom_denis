@@ -404,6 +404,10 @@ a {
   max-width: 50%;
   padding: 127px 28px 128px 28px; }
 
+@media (max-width: 768px) {
+  .scale__descr {
+    padding: 57px 28px 28px 28px; } }
+
 .scale__title {
   font-size: 14px;
   line-height: 114%;
@@ -442,6 +446,10 @@ a {
   display: flex;
   margin: 0 -12px;
   margin-bottom: 96px; }
+
+@media (max-width: 768px) {
+  .scale__colums {
+    margin-bottom: 16px; } }
 
 .scale__colum {
   padding: 0 12px;
@@ -500,6 +508,10 @@ a {
 @media (max-width: 1024px) {
   .colum2-scale-inf {
     padding: 151px 55px 50px 32px; } }
+
+@media (max-width: 768px) {
+  .colum2-scale-inf {
+    padding: 87px 55px 50px 32px; } }
 
 .extens {
   margin-bottom: 128px; }
