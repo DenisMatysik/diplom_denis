@@ -10,6 +10,11 @@
 .get__inf {
     padding: 128px 200px;
 }
+@media (max-width:768px){
+    .get__inf {
+        padding: 58px 50px;
+    }
+}
 .get__logo{
     margin-bottom: 46px;
     max-width: 100%;

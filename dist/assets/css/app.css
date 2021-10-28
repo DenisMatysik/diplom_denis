@@ -631,6 +631,10 @@ a {
 .get__inf {
   padding: 128px 200px; }
 
+@media (max-width: 768px) {
+  .get__inf {
+    padding: 58px 50px; } }
+
 .get__logo {
   margin-bottom: 46px;
   max-width: 100%; }
@@ -677,6 +681,10 @@ a {
 @media (max-width: 1024px) {
   .subscribe__input input {
     width: 354px; } }
+
+@media (max-width: 768px) {
+  .subscribe__input input {
+    width: 194px; } }
 
 .subscribe__text {
   display: flex;
