@@ -249,6 +249,16 @@ a {
   font-size: 24px;
   line-height: 133%; }
 
+@media (max-width: 768px) {
+  .tools {
+    margin-bottom: 58px; }
+  .tools__inf {
+    grid-template-rows: 62% 35%; }
+    .tools__inf .elem2-inf {
+      padding: 10px 15px 18px 22px; }
+    .tools__inf .tools__elem3 {
+      padding: 20px 10px 10px 12px; } }
+
 .tools__title {
   font-size: 14px;
   line-height: 114%;
