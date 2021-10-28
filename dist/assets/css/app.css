@@ -407,7 +407,8 @@ a {
   padding: 0 9px;
   height: 100%; }
   .scale__img img {
-    transform: translate(-40px, 32px); }
+    max-width: 100%;
+    transform: scale(1.1, 1.2); }
 
 .scale__colums {
   display: flex;
@@ -425,7 +426,8 @@ a {
   background: #F9F9F9; }
 
 .scale__colum1-img {
-  margin-bottom: 39px; }
+  margin-bottom: 39px;
+  max-width: 100%; }
 
 .colum1-sacle-inf {
   padding: 0 55px 41px 32px; }
