@@ -1,5 +1,3 @@
-.footer{
-}
 
 .footer_subscribe{
     display: flex;
@@ -30,6 +28,15 @@
         padding: 15px 15px;
     }
 }
+
+@media (max-width:1024px){
+    .subscribe__input{
+        input{
+            width: 354px; 
+        }
+    } 
+}
+
 
 .subscribe__text{
     display: flex;

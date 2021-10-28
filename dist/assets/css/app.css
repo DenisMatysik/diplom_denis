@@ -612,6 +612,10 @@ a {
     border-color: rgba(0, 0, 0, 0.1);
     padding: 15px 15px; }
 
+@media (max-width: 1024px) {
+  .subscribe__input input {
+    width: 354px; } }
+
 .subscribe__text {
   display: flex;
   align-items: center; }
