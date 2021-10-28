@@ -7,16 +7,31 @@
     flex-wrap: wrap;
     list-style: none;
     margin: 160px 0 48px 0;
+    justify-content: space-around;
 }
 .row_colum{
-    flex: 0 0 16.66%;
+    flex: 0 1 16.66%;
     // секции сжимаются - как убрать
     max-width: 16.66%;
     padding: 0 64px;
 }
 
+@media (max-width:1024px){
+   .row_colum{
+        flex: 0 1 20%; 
+        max-width: 20%;
+        }
+    }
+@media (max-width:768px){
+   .row_colum{
+        flex: 0 1 33%; 
+        max-width: 33%;
+        }
+    }
+    
 .extens__img{
-    max-width: 100%;
+    width: 96px;
+    height: 96px;
 }
 .extens__inf{
     margin-left: 32PX;
