@@ -119,13 +119,16 @@
         color: black;
         margin-bottom: 55px;
     }
-    
     .colum2-scale-auth{
         font-size: 17px;
         line-height: 141%;
         color: #000000;
         max-width: 412px;
     }
-
-
 }
+
+@media (max-width:1024px){
+    .colum2-scale-inf{
+            padding: 151px 55px 50px 32px;
+         }
+     }
