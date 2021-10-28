@@ -349,12 +349,13 @@ a {
   background: #F9F9F9; }
 
 .colum2-inf {
-  padding: 39px 34px 40px 32px; }
+  padding: 39px 34px 24px 32px; }
   .colum2-inf .open__title {
     color: #3FB2A5; }
 
 .colum-img {
-  align-self: center; }
+  align-self: center;
+  max-width: 100%; }
 
 .scale {
   background-image: url(../imgs/bg-scale.jpg);

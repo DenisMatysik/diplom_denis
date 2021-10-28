@@ -83,18 +83,18 @@
     color: #000000;
     max-width: 412px;
 }
-
 .colum2 {
     display: flex;
     flex-direction: column;
     background: #F9F9F9;
 }
 .colum2-inf{
-    padding: 39px 34px 40px 32px;
+    padding: 39px 34px 24px 32px;
     .open__title{
         color: #3FB2A5;
     }
 }
 .colum-img{
     align-self: center;
+    max-width: 100%;
 }
