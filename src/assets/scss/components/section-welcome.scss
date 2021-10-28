@@ -58,3 +58,11 @@
     .row-logo{
         max-width: 100%;
     }
+
+    @media (max-width:768px){
+        .welcome__row{
+        .welcome-colum{
+        flex: 0 1 33%;
+        max-width: 33%;
+        padding: 10px 0;}}
+    }

@@ -209,6 +209,12 @@ a {
 .row-logo {
   max-width: 100%; }
 
+@media (max-width: 768px) {
+  .welcome__row .welcome-colum {
+    flex: 0 1 33%;
+    max-width: 33%;
+    padding: 10px 0; } }
+
 .tools {
   margin-bottom: 128px; }
 
@@ -295,6 +301,10 @@ a {
   flex: 0 1 50%;
   max-width: 50%;
   padding: 127px 85px 128px 32px; }
+
+@media (max-width: 768px) {
+  .open__descr {
+    padding: 50px 35px 50px 22px; } }
 
 .open__title {
   font-size: 14px;

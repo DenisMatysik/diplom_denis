@@ -26,6 +26,12 @@
     // тут подгонял padding-left чтоб картинка screen3.jpg как в figma была, но текст из .open__descr распологается правее относительно нижнего текста
 }
 
+@media (max-width:768px){
+    .open__descr{
+        padding: 50px 35px 50px 22px;
+    }  
+}
+
 .open__title{
     font-size: 14px;
     line-height: 114%;
