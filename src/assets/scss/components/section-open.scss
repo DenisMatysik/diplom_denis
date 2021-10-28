@@ -64,6 +64,11 @@
     margin: 0 -12px;
     margin-bottom: 152px;
 }
+@media (max-width:768px){
+    .open__colums{
+        margin-bottom: 32px;    
+    }   
+}
 .open__colum{
     padding: 0 12px;
     flex: 1 0 50%;
@@ -75,6 +80,11 @@
     background-image: url(../imgs/bg-open.jpg);
     background-repeat: no-repeat;
     height: 100%;
+}
+@media (max-width:768px){
+    .colum1{
+    padding: 110px 45px 0 32px;   
+    }   
 }
 .colum1-text{
     font-size: 24px;
@@ -100,6 +110,12 @@
         color: #3FB2A5;
     }
 }
+@media (max-width:768px){
+    .colum2-inf{
+    padding: 10px 34px 5px 32px;   
+    } 
+}
+
 .colum-img{
     align-self: center;
     max-width: 100%;
