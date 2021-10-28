@@ -8,6 +8,14 @@
     margin: 160px 0 48px 0;
     justify-content: space-around;
 }
+@media (max-width:768px){
+    .extens {
+        margin-bottom: 58px;
+    }
+    .extens__row{
+    margin: 60px 0 28px 0;
+    }
+}
 .row_colum{
     flex: 0 1 16.66%;
     // секции сжимаются - как убрать
