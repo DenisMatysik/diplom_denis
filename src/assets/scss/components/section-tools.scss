@@ -14,6 +14,9 @@
     .tools__elem1{
         grid-area: elem1;
         background: #F9F9F9;
+        img{
+            max-width: 100%;
+        }
         .elem1-inf{
         padding: 39px 35px 40px 32px;
         }
@@ -23,6 +26,9 @@
         background: #F9F9F9;
         .elem2-inf{
         padding: 39px 35px 48px 32px;
+        }
+        img{
+            max-width: 100%;
         }
     }
 

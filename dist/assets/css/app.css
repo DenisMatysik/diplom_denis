@@ -216,6 +216,8 @@ a {
 .tools__elem1 {
   grid-area: elem1;
   background: #F9F9F9; }
+  .tools__elem1 img {
+    max-width: 100%; }
   .tools__elem1 .elem1-inf {
     padding: 39px 35px 40px 32px; }
 
@@ -224,6 +226,8 @@ a {
   background: #F9F9F9; }
   .tools__elem2 .elem2-inf {
     padding: 39px 35px 48px 32px; }
+  .tools__elem2 img {
+    max-width: 100%; }
 
 .tools__elem3 {
   padding: 41px 60px 40px 32px;
