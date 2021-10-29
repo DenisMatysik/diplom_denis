@@ -146,11 +146,10 @@ a {
     margin-bottom: 0;
     padding-bottom: 10px; }
   .bugreg {
-    display: flex; }
+    display: flex;
+    margin-top: 5px; }
   .header__list {
     display: none; }
-  .button--inverse {
-    margin-left: 0; }
   .header__list {
     flex-direction: column; }
     .header__list a {
