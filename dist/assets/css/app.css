@@ -269,11 +269,12 @@ a {
   .tools {
     margin-bottom: 58px; }
   .tools__inf {
-    grid-template-rows: 62% 35%; }
-    .tools__inf .elem2-inf {
-      padding: 10px 15px 18px 22px; }
-    .tools__inf .tools__elem3 {
-      padding: 20px 10px 10px 12px; } }
+    display: flex;
+    flex-direction: column; }
+  .tools__inf .elem2-inf {
+    padding: 20px 25px 28px 22px; }
+  .tools__inf .tools__elem3 {
+    padding: 20px 20px 20px 12px; } }
 
 .tools__title {
   font-size: 14px;
