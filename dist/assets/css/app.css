@@ -703,10 +703,6 @@ a {
 .get__inf {
   padding: 128px 200px; }
 
-@media (max-width: 768px) {
-  .get__inf {
-    padding: 58px 50px; } }
-
 .get__logo {
   margin-bottom: 46px;
   max-width: 100%; }
@@ -724,6 +720,18 @@ a {
 
 .desc {
   margin-bottom: 24px; }
+
+@media (max-width: 1024px) {
+  .get__inf {
+    padding: 68px 60px; } }
+
+@media (max-width: 768px) {
+  .get__inf {
+    padding: 58px 50px; } }
+
+@media (max-width: 426px) {
+  .get__inf {
+    padding: 28px 20px; } }
 
 .footer_subscribe {
   display: flex;
