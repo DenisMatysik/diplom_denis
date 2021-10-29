@@ -9,6 +9,7 @@
 }
 .news__row {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 -12px;
 }
 .news__colum {
@@ -32,11 +33,23 @@
     color: rgba(33, 33, 35, 0.7);
 }
 .news1{
-    max-width: 356px;
-}
+    max-width: 356px;}
+
 .news2{
-    max-width: 327px;
-}
+    max-width: 327px;}
+
 .news3{
-    max-width: 376px;
+    max-width: 376px;}
+
+@media (max-width:700px){
+    .news__colum {
+        flex: 0 1 50%;
+        width: 50%;
+        padding: 10px 12px;}
+}
+@media (max-width:426px){
+    .news__colum {
+        flex: 0 1 100%;
+        width: 100%;
+        padding: 10px 12px;}
 }
