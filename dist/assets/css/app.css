@@ -215,6 +215,22 @@ a {
     max-width: 33%;
     padding: 10px 0; } }
 
+@media (max-width: 425px) {
+  .frst-screen {
+    display: none; }
+  .scnd-screen {
+    display: none; }
+  .welcome__inf {
+    margin: 28px 10px; }
+  .welcome__row .welcome-colum {
+    flex: 0 1 50%;
+    max-width: 50%; } }
+
+@media (max-width: 320px) {
+  .welcome__row .welcome-colum {
+    flex: 0 1 100%;
+    max-width: 100%; } }
+
 .tools {
   margin-bottom: 128px; }
 
