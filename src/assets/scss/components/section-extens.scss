@@ -8,40 +8,21 @@
     margin: 160px 0 48px 0;
     justify-content: space-around;
 }
-@media (max-width:768px){
-    .extens {
-        margin-bottom: 58px;
-    }
-    .extens__row{
-    margin: 60px 0 28px 0;
-    }
-}
+
 .row_colum{
+    display: flex;
+    justify-content: center;
     flex: 0 1 16.66%;
-    // секции сжимаются - как убрать
     max-width: 16.66%;
     padding: 0 64px;
 }
 
-@media (max-width:1024px){
-   .row_colum{
-        flex: 0 1 20%; 
-        max-width: 20%;
-        }
-    }
-@media (max-width:768px){
-   .row_colum{
-        flex: 0 1 33%; 
-        max-width: 33%;
-        }
-    }
-    
 .extens__img{
     width: 96px;
     height: 96px;
 }
 .extens__inf{
-    margin-left: 32PX;
+    margin-left: 32px;
     padding: 40px 0 39px 0;
 }
 .extens__title{
@@ -57,7 +38,6 @@
         color: #000000;
         margin-bottom: 15px;
         max-width: 576px;
-
 }
 .extens__desc{
         font-size: 17px;
@@ -71,3 +51,28 @@
         line-height: 141%;
         color: #000000;
 }
+
+@media (max-width:1024px){
+    .row_colum{
+         flex: 0 1 20%; 
+         max-width: 20%;
+         padding: 10px 64px;}}
+
+ @media (max-width:768px){
+    .extens {
+        margin-bottom: 58px;}
+    .extens__row{
+    margin: 60px 0 28px 0;}
+    .row_colum{
+         flex: 0 1 33%; 
+         max-width: 33%;}}
+
+@media (max-width:426px){
+    .row_colum{
+        flex: 0 1 50%; 
+        max-width: 50%;
+        padding: 10px 24px;}
+        .extens__inf{
+        margin-left: 0;}}
+
+     
