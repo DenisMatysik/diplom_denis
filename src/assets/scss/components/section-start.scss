@@ -7,8 +7,6 @@
     min-height: 880px;
 }
 
-
-
 .start__inf{
     margin-top: 72px;
     max-width: 800px;
@@ -49,3 +47,22 @@
             color: white;
         }
     }
+
+@media (max-width:426px){
+    .start{
+        min-height: auto;
+        margin-bottom: 20px;
+        padding: 60px 0 30px 0;}
+    .start__inf{
+        margin-top: 22px;
+        padding: 18px 0px 0px 12px;
+    }
+    .start__title{
+        font-size: 56px; 
+    }
+}
+@media (max-width:320px){
+    .start__title{
+        font-size: 46px; 
+    }
+}
