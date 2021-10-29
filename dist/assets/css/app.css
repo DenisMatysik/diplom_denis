@@ -60,6 +60,27 @@ a {
   to {
     transform: rotate(360deg); } }
 
+.bugreg {
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70px;
+  height: 75px;
+  border-radius: 20%;
+  background-color: black;
+  cursor: pointer; }
+  .bugreg span::after {
+    display: inline-block;
+    content: '';
+    width: 35px;
+    border-bottom: 5px solid;
+    border-color: white; }
+  .bugreg:hover {
+    background-color: white; }
+    .bugreg:hover span::after {
+      border-color: black; }
+
 .header__list {
   list-style: none;
   display: flex;
@@ -122,16 +143,12 @@ a {
 
 @media (max-width: 720px) {
   .header {
-    position: relative;
     margin-bottom: 0;
-    padding-bottom: 10px;
-    background-color: grey; }
-  .header__row {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; }
-  .logo {
-    margin-right: 4px; }
+    padding-bottom: 10px; }
+  .bugreg {
+    display: flex; }
+  .header__list {
+    display: none; }
   .button--inverse {
     margin-left: 0; }
   .header__list {
