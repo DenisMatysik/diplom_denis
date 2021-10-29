@@ -147,5 +147,15 @@
 @media (max-width:426px){
     .footer__nav{
         flex-direction: column;
-        align-content: center;
-}}
+        align-content: center;}
+    .footer_subscribe{
+        flex-direction: column;
+        padding: 12px 0;
+    }
+    .subscribe__inf{
+        padding: 10px;
+    }
+    .subscribe__input{
+        input{
+        width: 294px;}}
+}
