@@ -265,17 +265,6 @@ a {
   font-size: 24px;
   line-height: 133%; }
 
-@media (max-width: 768px) {
-  .tools {
-    margin-bottom: 58px; }
-  .tools__inf {
-    display: flex;
-    flex-direction: column; }
-  .tools__inf .elem2-inf {
-    padding: 20px 25px 28px 22px; }
-  .tools__inf .tools__elem3 {
-    padding: 20px 20px 20px 12px; } }
-
 .tools__title {
   font-size: 14px;
   line-height: 114%;
@@ -303,6 +292,17 @@ a {
 .par--inverse {
   color: white;
   margin-top: 23px; }
+
+@media (max-width: 768px) {
+  .tools {
+    margin-bottom: 58px; }
+  .tools__inf {
+    display: flex;
+    flex-direction: column; }
+  .tools__inf .elem2-inf {
+    padding: 20px 25px 28px 22px; }
+  .tools__inf .tools__elem3 {
+    padding: 20px 20px 20px 12px; } }
 
 .open {
   background-image: url(../imgs/sec-open.jpg);
