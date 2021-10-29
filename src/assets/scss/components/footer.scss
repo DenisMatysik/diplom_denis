@@ -26,24 +26,7 @@
         border-radius: 5px;
         border-color: rgba(0, 0, 0, 0.1);
         padding: 15px 15px;
-    }
-}
-
-@media (max-width:1024px){
-    .subscribe__input{
-        input{
-            width: 354px; 
-        }
-    } 
-}
-@media (max-width:768px){
-    .subscribe__input{
-        input{
-            width: 194px; 
-        }
-    } 
-}
-
+    }}
 
 .subscribe__text{
     display: flex;
@@ -55,8 +38,7 @@
     .chekbox{
         margin: 0 5px;
         // как поля chekbox сделать невидимыми как в figma?
-    }
-}
+    }}
 
 .footer__nav{
     display: flex;
@@ -81,62 +63,89 @@
         color: rgba(0, 0, 0, 0.55);
         &:hover{
             color: white;
-            background: grey;
-        }
+            background: grey;}
     }
 }
 
 .nav-follow{
     .fol-compan{
-        display: flex;
-    }
+        display: flex;}
     img{
         margin-right: 4px;
         height: 20px;
-        width: 20px;
-    }
+        width: 20px;}
 }
 .pointer::after{
     content: url(../imgs/pointer.png);
     width: 16px;
     height: 16px;
-    margin-left: 4px;
-}
+    margin-left: 4px;}
+
 .twitter::before{
     content: url(../imgs/twitter.svg);
     margin-right: 4px;
     height: 20px;
-    width: 20px;
-}
+    width: 20px;}
+
 .facebook::before{
     content: url(../imgs/facab.svg);
     margin-right: 4px;
     height: 20px;
-    width: 20px;
-}
+    width: 20px;}
+
 .instagram::before{
     content: url(../imgs/insta.svg);
     margin-right: 4px;
     height: 20px;
-    width: 20px;
-}
+    width: 20px;}
+
 .dribbble::before{
     content: url(../imgs/bribb.svg);
     margin-right: 4px;
     height: 20px;
-    width: 20px;
-}
+    width: 20px;}
+
 .nineteen::after{
     content: url(../imgs/nineteen.png);
     width: 28px;
     height: 18px;
-    margin-left: 4px;
-}
+    margin-left: 4px;}
 
 .footer__year{
     font-size: 13px;
     line-height: 125%;
     text-align: center;
     color: rgba(0, 0, 0, 0.55);
-    margin-bottom: 31px;
+    margin-bottom: 31px;}
+    
+@media (max-width:1024px){
+    .subscribe__input{
+        input{
+        width: 354px;}} 
 }
+
+@media (max-width:768px){
+    .subscribe__input{
+        input{
+            width: 194px;}} 
+    .nav-colum{
+        p::after{
+            display: inline-block;
+            content: '';
+            height: 8px;
+            width: 8px;
+            border-right: 2px solid;
+            border-bottom: 2px solid;
+            transform: rotate(45deg) translate(0px, -4px);
+            margin-left: 5px;}
+        li{
+            display: none;}
+        .fol-compan{
+            display: none;}
+    }
+}
+@media (max-width:426px){
+    .footer__nav{
+        flex-direction: column;
+        align-content: center;
+}}
