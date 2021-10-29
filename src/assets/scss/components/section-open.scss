@@ -25,13 +25,6 @@
     padding: 127px 85px 128px 32px; 
     // тут подгонял padding-left чтоб картинка screen3.jpg как в figma была, но текст из .open__descr распологается правее относительно нижнего текста
 }
-
-@media (max-width:768px){
-    .open__descr{
-        padding: 50px 35px 50px 22px;
-    }  
-}
-
 .open__title{
     font-size: 14px;
     line-height: 114%;
@@ -61,13 +54,9 @@
 
 .open__colums{
     display: flex;
+    flex-wrap: wrap;
     margin: 0 -12px;
     margin-bottom: 152px;
-}
-@media (max-width:768px){
-    .open__colums{
-        margin-bottom: 32px;    
-    }   
 }
 .open__colum{
     padding: 0 12px;
@@ -79,13 +68,10 @@
     padding: 160px 45px 0 32px;
     background-image: url(../imgs/bg-open.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
 }
-@media (max-width:768px){
-    .colum1{
-    padding: 110px 45px 0 32px;   
-    }   
-}
+
 .colum1-text{
     font-size: 24px;
     line-height: 133%;
@@ -110,13 +96,44 @@
         color: #3FB2A5;
     }
 }
-@media (max-width:768px){
-    .colum2-inf{
-    padding: 10px 34px 5px 32px;   
-    } 
-}
 
 .colum-img{
     align-self: center;
     max-width: 100%;
+}
+
+@media (max-width:768px){
+    .open__colums{
+        margin-bottom: 32px;    
+    }   
+    .colum1{
+        padding: 110px 45px 0 32px;   
+        } 
+    .colum2-inf{
+    padding: 10px 34px 5px 32px;   
+    }
+    .open__descr{
+        padding: 50px 35px 50px 22px;
+    }   
+}
+
+@media (max-width:700px){
+    .open__colum{
+        padding: 0 12px;
+        flex: 0 1 100%;
+        width: 100%;}     
+    .colum1{
+        padding: 30px 15px 30px 12px;}
+    .open__img{
+        display: none;
+    }
+    .open__descr{
+        flex: 0 1 100%;
+        max-width: 100%;
+        padding: 57px 25px 58px 22px;  
+    }
+    .open__desc{
+        max-width: none;}
+        .colum2-inf {
+            padding: 10px 14px 5px 12px;}
 }
