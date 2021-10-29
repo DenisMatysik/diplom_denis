@@ -13,7 +13,6 @@
     margin-right: 24px;
     .logo__img{
         max-width: 100%;
-        // анимация логотипа
         &:hover{
             animation: rotate 1.5s linear infinite;}
     }
@@ -83,7 +82,7 @@
             background: none;
         }
     }
-    
+
     @media (max-width:768px){
         .header__list{
             a{
@@ -92,3 +91,26 @@
         .button{
             padding: 10px 10px;}
     }
+
+    // пока не придумал как должен выглядеть header в медиа, пока сделал так
+    @media (max-width:720px){
+    .header{
+            position: relative;
+            margin-bottom: 0;
+            padding-bottom: 10px;
+            background-color: grey;}
+    .header__row{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;}
+    .logo{
+        margin-right: 4px;}
+    .button--inverse{
+        margin-left: 0;
+    }
+    .header__list{
+        flex-direction: column;
+        a{
+            padding: 10px 5px;
+        }
+    }}
