@@ -445,10 +445,6 @@ a {
   max-width: 50%;
   padding: 127px 28px 128px 28px; }
 
-@media (max-width: 768px) {
-  .scale__descr {
-    padding: 57px 28px 28px 28px; } }
-
 .scale__title {
   font-size: 14px;
   line-height: 114%;
@@ -485,17 +481,14 @@ a {
 
 .scale__colums {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 -12px;
   margin-bottom: 96px; }
-
-@media (max-width: 768px) {
-  .scale__colums {
-    margin-bottom: 16px; } }
 
 .scale__colum {
   padding: 0 12px;
   flex: 1 0 50%;
-  width: 50%; }
+  max-width: 50%; }
 
 .scale__colum1 {
   display: flex;
@@ -534,6 +527,7 @@ a {
   padding: 151px 55px 151px 32px;
   background-image: url(../imgs/scale-bg2.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   height: 100%; }
   .colum2-scale-inf .colum2-scale-text {
     font-size: 24px;
@@ -551,8 +545,32 @@ a {
     padding: 151px 55px 50px 32px; } }
 
 @media (max-width: 768px) {
+  .scale__descr {
+    padding: 57px 28px 28px 28px; }
+  .scale__colums {
+    margin-bottom: 16px; }
   .colum2-scale-inf {
     padding: 87px 55px 50px 32px; } }
+
+@media (max-width: 700px) {
+  .scale__descr {
+    flex: 0 1 100%;
+    max-width: 100%;
+    padding: 57px 18px 58px 18px; }
+  .scale__desc {
+    max-width: none; }
+  .scale__img {
+    display: none; }
+  .scale__colum {
+    padding: 0 12px;
+    flex: 1 0 100%;
+    max-width: 100%; }
+  .scale__colum1-img {
+    margin-bottom: 0; }
+  .colum1-sacle-inf .scale__desc {
+    max-width: none; }
+  .colum2-scale-inf {
+    padding: 27px 25px 20px 22px; } }
 
 .extens {
   margin-bottom: 128px; }
