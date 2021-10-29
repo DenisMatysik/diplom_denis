@@ -1,5 +1,3 @@
-.welcome{
-}
 
 .welcome-screens{
     position: relative;
@@ -19,12 +17,9 @@
     position: absolute;
     top: -93px;
     right: 55px;
-    // когда ращрешение > 1440px либо <1024px картинки едут друг от друга
     img{
-        max-width: 100%;
-    }
-}
-}
+        max-width: 100%;}
+}}
 
 .welcome__inf{
     margin-bottom: 128px;
@@ -69,22 +64,22 @@
 
     @media (max-width: 425px){
         .frst-screen{
-            display: none;
+        display: none;
         }
         .scnd-screen{
-            display: none;
+        display: none;
         }
         .welcome__inf{
-            margin: 28px 10px;
+        margin: 28px 10px;
         }
         .welcome__row{
-            .welcome-colum{
-            flex: 0 1 50%;
-            max-width: 50%;}}
+        .welcome-colum{
+        flex: 0 1 50%;
+        max-width: 50%;}}
     }
     @media (max-width: 320px){
         .welcome__row{
-            .welcome-colum{
-            flex: 0 1 100%;
-            max-width: 100%;}}
+        .welcome-colum{
+        flex: 0 1 100%;
+        max-width: 100%;}}
     }
